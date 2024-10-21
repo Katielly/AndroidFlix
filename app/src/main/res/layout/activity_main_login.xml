@@ -10,12 +10,111 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="409dp"
+        android:layout_height="906dp"
+        android:layout_marginTop="4dp"
         android:scaleType="fitStart"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/img_batma02" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextText"
+        android:layout_width="300.dp"
+        android:layout_height="60.dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="508dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/text_field_personalizado"
+        android:drawableStart="@drawable/baseline_mail_outline_24"
+        android:drawablePadding="8.dp"
+        android:ems="10"
+        android:hint="E-mail ou número de telefone"
+        android:inputType="text"
+        android:paddingStart="8.dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextText5"
+        android:layout_width="300.dp"
+        android:layout_height="60.dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/text_field_personalizado"
+        android:drawableStart="@drawable/outline_local_activity_24"
+        android:drawablePadding="8.dp"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="text"
+        android:paddingStart="8.dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button4"
+        android:layout_width="300.dp"
+        android:layout_height="60.dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/button_personalizado"
+        android:text="Entrar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText5"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="153dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="8dp"
+        android:text="Lembre de mim"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="32dp"
+        android:text="Precisa de ajuda?"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="56dp"
+        android:text="Inscreva-se agora"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
