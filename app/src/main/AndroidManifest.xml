@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AndroidFlix"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivityDelhates"
+            android:exported="false" />
+        <activity
             android:name=".MainActivityPerfil"
             android:exported="false" />
         <activity
