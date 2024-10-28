@@ -33,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/perfilSidnei"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
@@ -50,7 +50,7 @@
         android:layout_marginEnd="56dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toEndOf="@+id/perfilSidnei"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/perfil2" />
 
@@ -61,7 +61,7 @@
         android:layout_marginTop="64dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/perfilSidnei"
         app:srcCompat="@drawable/perfil3" />
 
     <TextView
@@ -71,9 +71,9 @@
         android:layout_marginTop="8dp"
         android:text="Sidnei"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="@+id/imageView4"
-        app:layout_constraintStart_toStartOf="@+id/imageView4"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintEnd_toEndOf="@+id/perfilSidnei"
+        app:layout_constraintStart_toStartOf="@+id/perfilSidnei"
+        app:layout_constraintTop_toBottomOf="@+id/perfilSidnei" />
 
     <TextView
         android:id="@+id/textView5"
